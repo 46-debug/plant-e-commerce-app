@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/plant-e-commerce-app/static/css/main.eecee373.css",
+    "main.js": "/plant-e-commerce-app/static/js/main.c0b23807.js",
+    "static/media/plant1.png": "/plant-e-commerce-app/static/media/plant1.9e0f27ad2828c4af42fa.png",
+    "static/media/plant2.png": "/plant-e-commerce-app/static/media/plant2.4218b1083f8dd0dcd159.png",
+    "static/media/layer.png": "/plant-e-commerce-app/static/media/layer.dfb8fbce4f85127bd2aa.png",
+    "static/media/plants circle.png": "/plant-e-commerce-app/static/media/plants circle.d98f339d0e45a13e4e0a.png",
+    "index.html": "/plant-e-commerce-app/index.html",
+    "main.eecee373.css.map": "/plant-e-commerce-app/static/css/main.eecee373.css.map",
+    "main.c0b23807.js.map": "/plant-e-commerce-app/static/js/main.c0b23807.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eecee373.css",
+    "static/js/main.c0b23807.js"
+  ]
+}
