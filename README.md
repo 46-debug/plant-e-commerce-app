@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+const [rotate, setRotate] = useState(0);
+
+    useEffect(()=>{
+        window.addEventListener("mousemove",(e)=>{
+            let mouseX = e.clientX;
+            let mouseY = e.clientY;
+            console.log(e);
+
+            let deltaX = mouseX - window.innerWidth/2;
+            let deltaY = mouseY - window.innerHeight/2;
+
+            const angle = Math.atan2(deltaY, deltaX) * (180/Math.PI);
+            setRotate(angle); 
+        })
+    })
+
+    style={{ transform: `rotate(${rotate}deg)`}}
